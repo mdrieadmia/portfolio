@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Website Title -->
+    <title>R I E A D | Web Developer</title>
+    <!-- Website Icon -->
+    <link rel="Website icon" href="./images/icon.png">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">  
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- Boxicons CDN Link -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <!---- Custom Tailwind Variables ---->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'brand-color' : '#2ef',
+                'dark1' : '#1F242D',
+                'dark2' : '#323946'
+              },
+              backgroundImage: {
+                'herobg' : "url('./images/bannerbg.png')",
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body class="font-manrope">
+    <header class="w-full h-screen bg-herobg bg-center bg-no-repeat bg-cover">
+        <div class="w-full h-screen bg-[#1F242DCC]" >
+            <nav class="container mx-auto pt-4 flex justify-between items-center px-5">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="logo">
+                </div>
+                <div class="md:hidden">
+                    <a href="#"><i class='bx bx-menu text-2xl text-white'></i></a>
+                </div>
+                <div class="hidden md:block">
+                    <ul class="flex gap-8 text-white font-medium text-base">
+                        <li><a class="hover:text-brand-color transition-all tracking-wider" href="#">Home</a></li>
+                        <li><a class="hover:text-brand-color transition-all tracking-wider" href="#">About</a></li>
+                        <li><a class="hover:text-brand-color transition-all tracking-wider" href="#">Skills</a></li>
+                        <li><a class="hover:text-brand-color transition-all tracking-wider" href="#">Services</a></li>
+                        <li><a class="hover:text-brand-color transition-all tracking-wider" href="#">Portfolio</a></li>
+                        <li><a class="hover:text-brand-color transition-all tracking-wider" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <section>
+            <div class="container mx-auto px-5">
+
+            </div>
+        </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
